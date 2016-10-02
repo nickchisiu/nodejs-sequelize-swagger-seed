@@ -1,0 +1,1 @@
+# nodejs-sequelize-swagger-seed
