@@ -38,11 +38,12 @@ You will need these tools to set up a local development environment:
 
 ### Setup & init
 
-In order to change Node's server environment (which by default is `dev`) run this :
+In order to change Node's server environment (which by default is `local`) run this :
 ``` 
-export NODE_ENV="prod"
+export NODE_ENV="dev"
 ```
 
+*NOTE* : check `config/` **YML** environment files
 
 #### Create a user database on your local machine :
 
