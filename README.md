@@ -35,16 +35,15 @@ You will need these tools to set up a local development environment:
 * [NodeJS](https://nodejs.org/)
 * [Mysql Server](https://www.mysql.com/)
 
-### Environments
+### Setup & init
 
 In order to change Node's server environment (which by default is `dev`) run this :
 ``` 
 export NODE_ENV="prod"
 ```
 
-#### Local ( Developer's machine )
 
-##### Create a user database on your local machine :
+#### Create a user database on your local machine :
 
 ```
 username : "test"
@@ -55,7 +54,7 @@ hostname : "localhost"
 
 **Live auto reload on files changes enabled by default !!!**
 
-##### Running the server :
+#### Running the server :
 
 ```sh
 $ npm install
@@ -84,25 +83,8 @@ $ npm run eslint
 $ npm run jsinspec
 ```
 
-#### Development ( testing server instance )
 
-##### Running the server :
-
-```sh
-$ npm install
-$ npm run-script dev
-```
-
-#### Production ( production server instance )
-
-##### Running the server :
-
-```sh
-$ npm install
-$ npm run-script prod
-```
-
-#### Database
+### Database
 
 Database it's maintained with the power of the [Sequelize Framework](http://docs.sequelizejs.com/en/v3/)
 
@@ -111,7 +93,7 @@ every time when you restart the Node server your data it's wiped out and tables 
 with the help of `wipe: true` line stored on `config/` environment files. For `prod` , data it's created only once,
 and the best to modify tables it's to use [Sequelize Migrations](http://docs.sequelizejs.com/en/latest/docs/migrations/)
 
-#### Swagger API Documentation http://swagger.io/
+### Swagger API Documentation http://swagger.io/
 
 *NOTE* : API docs are available only on the development environments .
 
