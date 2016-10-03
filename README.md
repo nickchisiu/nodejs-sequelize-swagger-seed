@@ -52,7 +52,7 @@ database : "test"
 hostname : "localhost"
 ```
 
-**Live auto reload on files changes enabled by default !!!**
+**Live auto reload when files changes enabled on the `local` environment !!!**
 
 #### Running the server :
 
