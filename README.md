@@ -54,7 +54,7 @@ database : "test"
 hostname : "localhost"
 ```
 
-**Live auto reload when files changes enabled on the `local` environment !!!**
+**Live auto reload on files changes , enabled by default on `local` environment !!!**
 
 #### Running the server :
 
