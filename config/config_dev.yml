@@ -1,0 +1,10 @@
+environment: dev
+api:
+  port: 80
+db:
+  username: devdb
+  password: qwerty123
+  database: devdb
+  host: db.dev.example.org
+  wipe: true
+  logging: false

@@ -1,0 +1,9 @@
+environment: local
+api:
+  port: 5000
+db:
+  username: devdb
+  password: qwerty123
+  database: devdb
+  host: localhost
+  wipe: true

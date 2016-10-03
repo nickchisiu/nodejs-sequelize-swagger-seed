@@ -1,0 +1,15 @@
+swagger:
+  info:
+    title: "API Documentation"
+    description: "This is the main API contains most of the assets."
+    termsOfService: "http://www.example.org/terms/"
+    contact:
+      email: "user@example.org"
+    version: "1.0"
+  basePath: "/"
+  schemes:
+    - "http"
+  consumes:
+    - "application/json"
+  produces:
+    - "application/json"

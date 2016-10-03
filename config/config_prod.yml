@@ -1,0 +1,10 @@
+environment: prod
+api:
+  port: 80
+db:
+  username: prod_db
+  password: qwerty123
+  database: prod_db
+  host: db.prod.example.org
+  wipe: false
+  logging: false
