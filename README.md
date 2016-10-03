@@ -6,6 +6,7 @@
 - Express Framework support
 - Swagger API documentation
 - Sequelize Framework
+- Bluebird A+ class promises
 - MySQL support
 - multiple environments
 - automatically load controllers & models ( no need to specify files when add something new to `app/models` and `app/controllers` )
