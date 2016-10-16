@@ -82,7 +82,7 @@ $ npm run eslint
 **JS inspect ( duplicated code check )**
 
 ```
-$ npm run jsinspec
+$ npm run jsinspect
 ```
 
 
